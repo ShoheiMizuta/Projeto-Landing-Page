@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+li{
+    display: inline-block;
+    margin: 40px;
+}
+
+body {
+    background-color:#090938;
+    color: #DEC12F;
+    margin: 0 auto;
+    max-width: 1700px;
+    padding: 20px;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+
+h2{ 
+    font-size: 35px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 15px;
+    max-width: 700px;
+}
+
+img{
+    width: 400px;
+}
+
+::placeholder{
+    font-size: medium;
+}
+
+input{
+        margin-top: 30px;
+        border-radius: 30px;
+        border: none;
+        padding: 25;
+        height: 30px;
+        
+}
+
+form{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    margin-right: 40%;
+}
+
+div video{
+    margin-left: 80%;
+}    
+   
